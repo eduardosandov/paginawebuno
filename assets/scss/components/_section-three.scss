@@ -1,0 +1,54 @@
+
+/* banner-three */
+.banner-three {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url(../img/1626914098926.jpg);
+    background-repeat: no-repeat;
+  }
+  .full-witch-wrapper-banner-three {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+  }
+  
+  .details-banner-three{
+    float: right;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+  }
+  .temperature-banner-three {
+    color: var(--black);
+    font-weight: 200;
+    font-size: 7em;
+  }
+  .summary-banner-three {    
+    color: var(--white);
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: -16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--cayucos);
+    margin-left: 8px;
+  }
+  .summaryText-banner-three {
+    
+  }
+  
+  .precipitation-banner-three, .wind-banner-three {
+    color: var(--white);
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-left: 8px;
+  }
+  .precipitation-banner-three {
+    margin-top: 16px;
+  }
+  .wind-banner-three {
+    margin-top: 4px;
+  }
+  

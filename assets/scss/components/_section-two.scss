@@ -1,0 +1,70 @@
+/* banner 2 */
+.banner-two {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    background-image: url(../img/section-one.jpeg);
+    background-repeat: no-repeat;
+  }
+  
+  .full-witch-wrapper {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+  }
+  
+  .details{
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  .details-right{
+    font-family: Roboto, sans-serif;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    margin-left: 60px;
+  }
+  
+  .temperature {
+    color: var(--black);
+    font-weight: 200;
+    font-size: 7em;
+  }
+  
+  .summary {  
+    color: var(--black);
+    font-size: 3em;
+    font-weight: 300;
+    width: 500px;
+    margin-top: -16px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid var(--cayucos);
+    margin-left: 8px;
+  }
+  
+  .summaryText {
+    margin: 0;
+    /* margin-left: 56px; */
+  }
+  
+  .precipitation, .wind {
+    color: var(--black);
+    font-size: 1.6em;
+    font-weight: 300;
+    margin-left: 8px;
+  }
+  .precipitation {
+    margin-top: 16px;
+  }
+  
+  .wind {
+    margin-top: 4px;
+  }
+  

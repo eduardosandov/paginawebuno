@@ -1,0 +1,86 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:300");
+
+:root{
+  --header-height: 3rem;
+/* =========COLOR============ */
+    --azul-uno: #001B48;
+    --azul-dos: #002447;
+    --azul-tres: #155DB1;
+    --azul-cuatro: #2196F3;
+    --azul-cinco: #81C9FA;
+    --rojo-uno: #CC0001;
+    --rojo-dos: #E60000; 
+    --rojo-tres: #FF1A1A;
+    --rojo-cuatro: #FF3334;
+    --rojo-cinco: #FF4D4D;
+    --grey-one: #000000;
+    --grey-two: #666666;
+    --grey-three: #808080;
+    --grey-four: #B3B3B3;
+    --grey-five: #E6E6E6;
+    --white: white;
+    --wrapper-background: #fff111;
+    --black: #111111;
+    --botton-color: #333222;
+    --target-color: #ebf6ff;
+
+  /*========== Font and typography ==========*/
+  --body-font: 'Poppins', sans-serif;
+ 
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: var(--body-font);
+}
+html {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+body {
+    margin: var(--header-height) 0 0 0;
+    background: var(--grey-five);
+    font-family: var(--body-font);
+    font-size: var(--normal-font-size);
+    height: 100%;
+    margin: 0;
+    min-block-size: 100vh;
+}
+
+/* NOSOTROS */
+
+.hero-nosotros{
+    width: 80%;
+    margin: 0 auto;
+    /* border: solid 1px red; */
+  }
+  .hero-descrip{
+    padding: 30px;
+    margin: 0;
+    display: flex;  
+  }
+  
+  .hero-title {
+    text-align: center; 
+    /* font-weight: 400; */
+  
+  }
+  
+  .container-quienes {
+    /* border: solid 1px green; */
+    margin: 5px;
+    padding: 25px;
+    border-radius: 8px;
+    background: var(--target-color);
+  }
+
+  .container-quienes .title {  
+    /* border: 1px solid blue; */
+    color: var(--rojo-cuatro);
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  

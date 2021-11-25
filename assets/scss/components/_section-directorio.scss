@@ -1,0 +1,58 @@
+
+
+/* BANNER-DIRECTORIO */
+
+.banner-directorio {
+    width: 100%;
+    background: var(--grey-six);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+  }
+  
+  .directorio-section {
+    position: relative;
+    overflow: hidden;
+    width: 80%;  
+  }
+  
+  .title-directorio {
+    font-size: 17px;
+    text-align: center;
+    padding-bottom: 50px;
+  }
+  
+  .details-directorio{
+    margin: 0 auto;
+    font-size: 20px;
+    display: flex;  
+  }
+  
+  .content-direc-one {
+    border-right: 3px solid var(--azul-dos);
+    color: var(--azul-tres);
+    padding-right: 50px;
+    margin-left: 180px;
+    max-width: 70%;
+  }
+  
+  .content-direc-two {
+    font-size: 14px;
+    margin-left: 200px;
+    font-size: 18px;
+    max-width: 30%;
+    margin-top: 25px;
+  }
+  
+  @media only screen and (max-width: 720px) {    
+    .banner-directorio {
+      width: 100%;
+      background: var(--grey-six);
+      display: flex;
+      flex-direction: column;
+    }
+  }
+  /* //banner dorectprop */
+  
+  

@@ -1,0 +1,46 @@
+
+/* parent */
+.section-parent {
+    width: 100%;
+    background-image: url(../img/162691409891.jpg);
+  }
+  .parent {
+    display: flex;
+    position: relative;
+  }
+  .one, .two {
+    height: 600px;
+    width: 65%;
+  }
+  .one {
+    left: 0;
+    top: 0;
+    background: #041838;
+    clip-path: polygon(0 0, 100% 0%, 50% 100%, 0% 100%); 
+  }
+  .two {
+    right: 0;
+    top: 0;
+    background: rgb(3, 48, 121);
+    clip-path: polygon(0% 0, 50% 0%, 100% 100%, 0% 100%); 
+    opacity: 0.9;
+  }
+  
+  .parent-text {
+    padding-top: 100px;
+    margin: 90px;
+  }
+  
+  .summary-parent-two {  
+    color: var(--white);
+    font-size: 3em;
+    font-weight: 300;
+  }
+  .precipitation-parent-two {
+    color: var(--white);
+    font-size: 1.6em;
+    font-weight: 300;  
+  }
+  
+  /* end parent */
+  
